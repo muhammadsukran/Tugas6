@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div class="Data">
+      <div class="Input">
     <h1>Management Data</h1>
 
     <div class="ui form">
@@ -23,7 +24,7 @@
   </div>
 
     <br>
-
+  <div class="Kartu">
     <div class="ui cards">
       <div v-for="(item, index) in items" :key="index" class="card">
         <div class="content">
@@ -42,6 +43,8 @@
       </div>
     </div>
   </div>
+</div>
+</div>
 </template>
 
 <script>
@@ -174,10 +177,8 @@ export default {
 .container {
   max-width: 100%;
   margin: 20px auto;
-  margin-top: 100px;
-  position: fixed;
-  left:10%;
-  display: inline;
+  margin-top: 80px;
+  display: flex;
 }
 
 .field label{
@@ -185,7 +186,23 @@ export default {
   font-weight: bold !important;;
 }
 
+.Data{
+  color: white;
+  position: relative;
+  margin-left: 10px;
+  left:0%;
+  top:30%;
+  
+}
 .Data h1{
   color: white;
+}
+
+.Input button{
+  margin-bottom: 10px;
+}
+.Kartu{
+  margin-top: 50px;
+  display: flex;
 }
 </style>
