@@ -1,7 +1,7 @@
 # Vue 3 + Vite
 
-Tidak perlu menjalankan npx json-server --wetch db.json
-langsung saja menjalankan npm run dev
+Tidak perlu menjalankan ```npx json-server --wetch db.json```
+langsung saja menjalankan ```npm run dev```
 
 ## Recommended IDE Setup
 
